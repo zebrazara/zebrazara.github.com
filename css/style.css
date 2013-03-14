@@ -252,9 +252,3 @@ footer{
 	padding:15px 0 10px;
 	background:url(../images/line.png) center top repeat-x;
 	}
-.phgFix {
-     background: url('images/img-2.png') no-repeat;
-     -pie-png-fix: true;
-     behavior: url(PIE.htc);
-
-}
