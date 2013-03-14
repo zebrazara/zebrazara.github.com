@@ -1,0 +1,254 @@
+@font-face {font-family:"Lavi";src:url("../Lavi.eot?") 
+format("eot"),url("../Lavi.woff") format("woff"),url("../Lavi.ttf") 
+format("truetype"),url("../Lavi.svg") format("svg");
+font-weight:normal;font-style:normal;}
+
+@font-face {font-family:Candara;src:url("../Candara.eot?") 
+format("eot"),url("../Candara.woff") format("woff"),url("../Candara.ttf") 
+format("truetype"),url("../Candara.svg") format("svg");
+font-weight:normal;font-style:normal;}
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+mark, rp, rt, ruby, summary, time {display:inline;}
+
+/* Global properties ======================================================== */
+html {width:100%; height:100%;}
+
+body { 	 
+	font-family:"Baskerville Old Face", "Times New Roman", sans;
+	font-size:16px;
+	line-height:1.4em;
+	color:#000;
+	min-width:960px;
+	height:100%;
+	background:#fff;
+}
+.p1,.p2,.p3,.p4,
+label,input,textarea,
+.text-form,.menu a,
+a.button {font-family: Candara, sans;}
+a {color:#000; outline:none;}
+a:hover {text-decoration:none;}
+
+p {margin-bottom:18px;}
+
+
+.menu li a,
+h1 a {text-decoration:none;color:#fff}	
+
+/*********************************header*************************************/
+header {
+	width:960px; 	
+	margin:10px auto 0;
+	background:url(../images/header-2.png) 0 0 no-repeat;
+	height:260px;
+}
+
+h1 {
+	color:#fff;
+	font-size:42px;
+	font-weight:bold;
+	letter-spacing:-1px;
+	line-height:1.4em;
+}
+a.logo {
+		display:block;float:left;
+		background:url(../images/logo2.png) 0 0 no-repeat;
+		width:215px;
+		height:176px;
+	}
+.logo-side{
+	width:250px;
+	padding:10px 0 0 28px; 
+	float:left;
+}
+/***** menu *****/
+.menu {
+	padding:103px 8px 0 0;
+	float:right;
+}
+.menu li {
+	float:left; 
+}
+.menu > li:first-child {background:none;}
+.menu a {
+	display:inline-block;
+	margin:0 24px 0 0;
+	text-align:center;
+	font-size:24px; 
+	font-weight:bold;
+	line-height:1.6em;
+	color:#fff; 
+	width:187px;
+	height:37px;
+	background:url(../images/button3.png) 0 0 no-repeat;
+}
+.menu a.active,
+.menu a:hover {background:url(../images/button3.png) 0 -37px no-repeat; color:#00133a;}
+/*********************************content*************************************/
+.main {
+	width:960px; 	
+	margin:0 auto;
+}
+.wrapper{width:100%;
+	height:100%;}
+.img-1{
+	background:url(../images/img-1.png) right no-repeat;
+	background-position:600px 40px;
+}
+
+.img-2{
+	background:url(../images/img-2.png) no-repeat;
+	background-position:540px 0;
+	margin-top:-25px;
+	position:relative;
+	z-index:10;
+}	
+.img-3{
+	background:url(../images/img-3.jpg) 50% 0 no-repeat;
+}
+.page-1{
+	padding:0 0 15px 18px;
+	width:480px;
+}
+.page-2{
+	padding:0 0 15px 28px;
+		}
+.page-3{
+	padding:0 0 15px 18px;
+	}
+.line-wrapper{margin-top:10px;overflow:hidden;}
+.column-1{width:240px;}
+.column-2{width:400px;padding-top:49px;}
+
+
+.p1{
+	color:#ff0000;
+	font-size:22px;
+	font-weight:bold;
+	text-align:center;
+	padding:12px 0 5px ;
+}
+.p3,.p4{
+	display:block;
+	font-size:26px;
+	font-weight:bold;
+	line-height:1.2;
+	padding-bottom:0;
+}
+.p5{font-weight:bold;font-size:18px;clear:both;}
+
+.fl{float:left;}
+.fr{float:right;}
+h2{
+	padding-bottom:32px;
+	font-size:22px;
+}
+
+h3{
+	font-size:26px;
+	
+	padding:10px 0 15px 140px;
+}
+ul.list{
+	margin:0 50px 0 0;
+	float:left;
+}
+ul.list-2{
+	height:100%;
+}
+.list li{
+	list-style-image:url(../images/mark.png);
+	font-size:26px;
+	font-family:"Lavi";
+	padding-left:23px;
+	margin-left:28px;
+	line-height:4.3;
+	}
+.list-2 li{
+	list-style-image:url(../images/mark_squere.png);
+	font-size:15px;
+	line-height:1.1;
+	padding-bottom:15px;
+	margin-left:20px;
+}
+/***** contact form *****/
+#contact-form {
+	display:block;
+	width:100%;
+	padding-left:50px;
+}
+	#contact-form label {
+		display:block; 	
+		height:40px; 
+		overflow:hidden;
+		text-align:right;
+		margin-top:26px;
+	}
+	#contact-form label span {padding-top:5px;}
+	#contact-form input.text{
+		float:left; 
+		width:176px; 
+		height:32px;
+		font-size:16px;
+		padding-left:5px;
+		border:2px solid #00113a; 
+		background:#bfbfbf;
+	}
+	#contact-form input.short{
+		float:left; 
+		width:25px; 
+		height:32px;
+		padding-left:5px;
+		}
+
+	#contact-form textarea {
+		float:left;
+		height:108px; 
+		min-height:108px; 
+		max-height:308px; 
+		width:538px;
+		max-width:658px;
+		min-width:538px;
+		font-size:16px; 
+		color:#000;
+		padding:5px 5px; 
+		margin:26px 0 0 0; 
+		border:2px solid #00113a; 
+		background:#bfbfbf;
+	}
+
+.text-form {
+	float:left; 
+	padding:0px 5px 0 0 ;
+	font-size:18px;
+	font-weight:bold;
+	width:205px;
+	height:34px;
+	color:#000;
+	text-align:right;
+}
+div.text-form{margin-top:26px;padding-top:5px;}
+a.button {
+	margin:35px 0 35px 210px;
+	display:inline-block;
+	text-align:center;
+	text-decoration:none;
+ 	font-size:24px;
+	font-weight:bold;
+	line-height:1.6em;
+	color:#00133a;
+	width:187px;
+	height:37px;
+	background:url(../images/button3.png) 0 -37px no-repeat;}
+	
+	
+a.button:hover{background:url(../images/button3.png) 0 0 no-repeat; color:#fff; }
+/****************************footer************************/
+footer{
+	padding:0 0 15px;
+}
+.line{
+	padding:15px 0 10px;
+	background:url(../images/line.png) center top repeat-x;
+	}

@@ -1,0 +1,11 @@
+body{
+	text-align:center;
+}
+p,section,h1{
+	text-align:left;
+}
+.menu a{
+	display:inline;
+	zoom:1;
+	text-align:center;
+}
