@@ -103,6 +103,8 @@ a.logo {
 	margin-top:-25px;
 	position:relative;
 	z-index:10;
+	-pie-png-fix: true;
+     behavior: url(PIE.htc);
 }	
 .img-3{
 	background:url(../images/img-3.jpg) 50% 0 no-repeat;
@@ -252,4 +254,9 @@ footer{
 	padding:15px 0 10px;
 	background:url(../images/line.png) center top repeat-x;
 	}
-menu.a,div,header{behavior: url("iepngfix.htc")}
+.phgFix {
+     background: url('images/img-2.png') no-repeat;
+     -pie-png-fix: true;
+     behavior: url(PIE.htc);
+
+}
