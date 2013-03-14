@@ -9,3 +9,10 @@ p,section,h1{
 	zoom:1;
 	text-align:center;
 }
+*html header{
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(
+		src='images/header.png',
+		sizingMethod='crop'
+	);
+}
