@@ -9,17 +9,9 @@ p,section,h1{
 	zoom:1;
 	text-align:center;
 }
-*html header{
-	background-image:none;
-	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(
-		src='images/header.png',
-		sizingMethod='crop'
-	);
-}
-*html .menu a,.menu a:hover,.menu a.active,.button{
-	background-image:none;
-	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(
-		src='images/button3.png',
-		sizingMethod='crop'
-	);
-}
+
+*html .img-2{
+	background:url(../images/img-2.png) no-repeat;
+	-pie-png-fix: true;
+     behavior: url(PIE.htc);
+	 }

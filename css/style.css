@@ -103,8 +103,6 @@ a.logo {
 	margin-top:-25px;
 	position:relative;
 	z-index:10;
-	-pie-png-fix: true;
-     behavior: url(PIE.htc);
 }	
 .img-3{
 	background:url(../images/img-3.jpg) 50% 0 no-repeat;
