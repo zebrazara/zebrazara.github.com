@@ -9,4 +9,8 @@ p,section,h1{
 	zoom:1;
 	text-align:center;
 }
-
+.img-2{
+	background:url(images/img-2.png) no-repeat;
+	-pie-png-fix: true;
+     behavior: url(PIE.htc);
+	 }
