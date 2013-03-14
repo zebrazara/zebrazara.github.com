@@ -16,10 +16,10 @@ p,section,h1{
 		sizingMethod='crop'
 	);
 }
-*html .menu a, .button{
+*html .menu a,.menu a:hover .button{
 	background-image:none;
 	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(
-		src='images/button.png',
+		src='images/button3.png',
 		sizingMethod='crop'
 	);
 }
