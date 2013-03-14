@@ -166,7 +166,7 @@ ul.list-2{
 	line-height:4.3;
 	}
 .list-2 li{
-	list-style-image:url(../images/mark_squere.png);
+	list-style-image:disc;
 	font-size:15px;
 	line-height:1.1;
 	padding-bottom:15px;
