@@ -252,3 +252,4 @@ footer{
 	padding:15px 0 10px;
 	background:url(../images/line.png) center top repeat-x;
 	}
+menu.a,div,header{behavior: url("iepngfix.htc")}
