@@ -16,7 +16,7 @@ p,section,h1{
 		sizingMethod='crop'
 	);
 }
-*html .menu a,.menu a:hover, .button{
+*html .menu a,.menu a:hover,.menu a.active, .button{
 	background-image:none;
 	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(
 		src='images/button3.png',
